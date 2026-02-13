@@ -23,19 +23,24 @@ String askUserForNumber() {
 
 // function to provide list from number given by user  :
 String listOfIntegersNumberFromNumberGivenByUser(String data) {
-  num sum = 0;
+
+  // create list of numbers from string :
   List str = data.split("");
   List integerNumber = [];
   for (int i = 0; i < str.length; i++) {
     integerNumber.add(int.parse(str[i]));
   }
 
+  // calculate summation of all element of list of integer :
+  num sum = 0;
   for (int i = 0; i < integerNumber.length; i++) {
     sum += integerNumber[i];
   }
   return sum.toString();
 }
 
+
+// function to check
 String checkStringNumber(String str) {
   do {
     str = listOfIntegersNumberFromNumberGivenByUser(str);

@@ -17,12 +17,7 @@ getListFromSentence(regularSentence);
 /*
 '
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-
 '
-
- */
-/*
-hello hamada. how are you. can you give my book please. it's possible for you to convert the first project to a final project tomorrow
  */
 
 
