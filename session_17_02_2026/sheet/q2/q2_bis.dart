@@ -1,0 +1,16 @@
+/*
+Food Delivery App – Orders & Menu
+      Imagine you are building a food delivery app.
+      - The app has a menu of food items (each with a name, price, and category
+        like "Pizza" or "Drinks").
+      - A user can add multiple items to an order.
+      - The app should calculate the total price of the order.
+ */
+class foods{
+  String nameItem;
+  double priceItem;
+  String categoryItem;
+  foods({required this.nameItem, required this.priceItem, required this.categoryItem });
+
+
+}
